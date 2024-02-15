@@ -40,7 +40,7 @@
            to the primary VT. This instance has also an other instance identification number.
          - To create another instance with a different VT for a CF, 
            IsoVtcCreateInstance() can be called again with a different VT name.
-*/
+**/
 
 iso_u8 IsoVtcCreateInstance(  iso_s16 s16CfHandleMaster,
                      const ISO_USER_PARAM_T userParam,
